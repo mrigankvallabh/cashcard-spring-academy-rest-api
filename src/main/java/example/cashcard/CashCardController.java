@@ -24,7 +24,7 @@ class CashCardController {
 
     private final CashCardRepository cashCardRepository;
 
-    public CashCardController(CashCardRepository cashCardRepository) {
+    CashCardController(CashCardRepository cashCardRepository) {
         this.cashCardRepository = cashCardRepository;
     }
 
